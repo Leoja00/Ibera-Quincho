@@ -1,0 +1,142 @@
+.form-titulo{
+    margin-top: 70px;
+}
+.form-titulo h6{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contacto{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+textarea{
+    min-width:100%;
+    max-width:150px;
+    min-height: 40%;
+    max-height: 75px;
+    border:none;
+    text-align: left; 
+    font-weight: 400;
+    
+    }
+section .form-input .form-contacto{
+    width: 70%;
+}
+
+section .form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+section .form-input .contenedor-input{
+    text-align: left;
+    font-weight: 600;
+
+}
+form .form-warning {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--red-1);
+}
+form .input-warning {
+    border: solid 1px red;
+}
+.mensaje-exitoso {
+    margin-top: 10px;
+    color: var(--blue-2);
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+}
+
+
+.form-contacto{
+    background-image: url(../img/form.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border-radius: 12px;   
+    color: black;
+    box-shadow: 0px 0px 10px 2px rgba(5, 5, 5, 0.5);
+    padding: 30px 30px;
+    position: relative;
+}
+
+.contenedor-input{
+    text-align: left; 
+    font-weight: 600;
+    margin:15px 0px;
+}
+
+.contacto .boton {
+    margin-top:10px;
+    position: relative;
+}
+
+.sucursal h6{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.boton{
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    background: linear-gradient(90deg, #efbb74 0%, #916932 100%);
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  .boton-texto {
+    position: inherit;
+    z-index: 111;
+  }
+  .boton::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #886e2b;
+    top: 0;
+    right: 100%;
+    z-index: 1;
+    transition: all .3s;
+  }
+  
+  .boton:hover::after {
+    transform: translateX(100%);
+    transition: all 0.5s;
+  }
+  
+  .form-control:focus{
+    border: 1px solid #EFEFEF;
+    box-shadow: none;
+  }
+  
+
+  @media screen and (max-width:800px) {
+    section .form-input .form-contacto{
+    width: 100%;
+    }
+
+    
+}

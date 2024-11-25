@@ -1,0 +1,44 @@
+img.logo{
+    width: 80px;
+}
+.navbar {
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.navbar-edit {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 111111;
+    width: 100%;
+    font-weight: 200;
+    font-size: 25px;   
+}
+
+.navbar-edit a {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 150px;
+  }
+
+.navbar-edit a:hover {
+    color: #fdbb15;
+  }
+  
+  .bg-navbar {
+    background-color: #916932;
+  }
+  .bg-navbar-top {
+    background: linear-gradient(90deg, #e7caa2e7 0% , #916932 100%);
+  }
+  
+  .navbar-collapse {
+    z-index: 11111111;
+  }
+  
+  .icon-burger {
+    color: white;
+    display: flex;
+    align-items: center;
+  }

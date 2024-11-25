@@ -1,0 +1,14 @@
+body{
+    background-color: cornsilk;
+}
+
+.separador {
+    background: linear-gradient(20deg, #d8b17b 0%, #916932 100%);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+  }
+

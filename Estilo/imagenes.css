@@ -1,0 +1,43 @@
+body {
+  background-color: cornsilk;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagen {
+  box-shadow: 10px 10px 10px -3px rgba(190, 150, 30, 0.5);
+  border-radius: 15px;
+  margin-bottom: 2px;
+}
+
+.imagen img {
+  width: 100%; /* Ajusta el ancho al contenedor */
+  height: 200px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Recorta la imagen manteniendo la proporción */
+  border-radius: 15px; /* Mantiene bordes redondeados */
+}
+
+.s {
+  background: linear-gradient(20deg, #d8b17b 0%, #916932 100%);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.img {
+  background: linear-gradient(20deg, #d8b17b 0%, #916932 100%);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+
